@@ -1,0 +1,12 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <ellipse cx="143" cy="227" fill="#00ffff" id="svg_1" rx="60" ry="100" stroke="#000000"/>
+  <ellipse cx="324" cy="137" fill="#f97400" id="svg_2" rx="65" ry="107" stroke="#000000"/>
+  <ellipse cx="323" cy="137.5" fill="#fccba4" id="svg_3" rx="54" ry="94.5" stroke="#000000"/>
+  <ellipse cx="143" cy="227" fill="#acf9f9" id="svg_4" rx="51" ry="91" stroke="#000000"/>
+  <text fill="#000000" font-family="Serif" font-size="24" id="svg_5" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.59297 0 0 1.27849 -10.8689 -47.6076)" x="112.21" xml:space="preserve" y="216.9">Por</text>
+  <text fill="#000000" font-family="Serif" font-size="24" id="svg_6" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.32823 0 0 1.26262 -77.1343 -34.7944)" x="271.85" xml:space="preserve" y="142.05">tal</text>
+ </g>
+</svg>
