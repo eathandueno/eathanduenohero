@@ -1,0 +1,19 @@
+/* Eathan Dueno April 12 2023 */
+header, footer{
+    background-color: #727272;
+}
+a:link{
+    color: aqua;
+}
+a:visited{
+    color: rgb(224, 49, 49);
+}
+a:hover{
+    color: rgb(60, 109, 214);
+}
+a:active{
+    color: rgb(164, 252, 31);
+}
+p,ul,li{
+    font-size: 20px;
+}
