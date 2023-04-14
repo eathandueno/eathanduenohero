@@ -1,0 +1,50 @@
+/* Eathan Dueno April 14 2023 */
+
+
+#outerwrapper {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+h1{
+	font-family: Verdana, Geneva, Tahoma, sans-serif ;
+	font-size: xx-large;
+}
+h2{
+	font-style: italic;
+	font-weight: normal;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.floatleft { 
+	float: left;
+	margin-right: 3%;
+}
+
+.floatright {
+	float: right;
+	margin-left: 3%;
+}
+body{
+	background-color: #B8D1EB;
+	color: #000000;
+	font-family: 'Times New Roman', Times, serif;
+}
+main, footer { 
+	clear: both;
+}
+main{
+	background-color: #C5A98B;
+	padding: 10px;
+}
+nav ul{
+	list-style-type: none;
+}
+main ul{
+	list-style-image: url(../images/tomato.png);
+}
+footer{
+	font-size: .75em;
+	background-color: blanchedalmond;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+}
