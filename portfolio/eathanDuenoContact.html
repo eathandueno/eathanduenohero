@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- Eathan Dueno 
+    April 17 2023 -->
+<html lang="en">
+<head>
+    <title>Contact Form</title>
+    <meta name="author" content="Eathan Dueno" >
+    <meta charset="UTF-8" >
+    <meta name="description" content="Eathan Dueno Web Developer Boise Idaho" >
+    <meta name="keywords" content="client-side server-side C# HTML CSS JavaScript" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <style>
+        div {
+            margin: 10px;
+        }
+
+        label {
+            margin-right: 15px;
+            width: 150px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <form action="mailto:eathandueno@gmail.com?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+        <!-- Group Fields Together, page 104 -->
+        <fieldset>
+        <legend>How do I contact you?</legend>
+            <!-- Company Select Box, page 97 -->
+            <div>
+                <label>Company:</label>
+                <input
+                    type="text"
+                    name="company"
+                    id="company"
+                    placeholder="Company Name"
+                >
+            </div>
+            <!-- Person to Contact Select Box, page 97 -->
+                <label>Person to contact</label>
+                <input
+                    type="text"
+                    name="contact"
+                    id="contact"
+                    placeholder="Contact Name"
+                >
+            <div>
+
+            </div>
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="yourEmail@address.com"
+                    required
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                >
+            <div>
+
+            </div>
+            <!-- Phone, textbook file rental.html-->
+            <!--Video 9.9 Building and Testing a Valid Form-->
+                <label for="phone">Phone Number:</label>
+                <input
+                    type="tel"
+                    name="phone"
+                    id="phone"
+                    placeholder="111-222-3333"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                >
+            <div>
+
+            </div>
+        </fieldset>
+
+        <!-- Group Fields Together, page 104 -->
+        <fieldset>
+            <legend>What opportunities are available at your company?</legend>
+            <!-- Select Box, page 98 -->
+            <label for="type">Type of Position:</label>
+            <select name="type" id="type" >
+                <option value="Intership">Internship</option>
+                <option value="Jr Position">Jr Position</option>
+            </select>
+            <!-- Radio Buttons, page 99 -->
+
+            <div>
+                <!-- Text Area, textbook file code-9-1.html -->	
+                <p>How did you find me?</p>
+                <input
+                    type="radio"
+                    name="contactSource"
+                    id="LinkedIn"
+                    value="yes"
+                >
+                <label for="LinkedIn">LinkedIn</label>
+                <input
+                    type="radio"
+                    name="contactSource"
+                    id="JobFair"
+                    value="yes"
+                >
+                <label for="JobFair">Job Fair</label>
+                <input
+                    type="radio"
+                    name="contactSource"
+                    id="CWICorporatePartner"
+                    value="yes"
+                >
+                <label for="CWICorporatePartner">CWI Corporate Partner</label>
+
+                <div>
+                    <textarea cols="70" rows="5" name="textarea">Type message..</textarea>
+                </div>
+
+            </div>
+        </fieldset>
+		<input type="submit" id="submit" value="Submit" class="btn">
+    </form>
+</body>
+</html>
