@@ -1,0 +1,13 @@
+/* Practice CustomFonts Style Sheet */
+
+@font-face {
+    font-family: 'chunk';
+    src: url('../fonts/ChunkFivePrint.otf') format('woff'),
+         url('../fonts/ChunkFive-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: 'chunk', "Times New Roman", serif;
+}
