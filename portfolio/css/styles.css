@@ -8,11 +8,13 @@ footer{
 .main-img{
     margin: 0 5%;
     width: 25%;
+    height: 25%;
     border: #314441 1px;
     border: solid 1px; 
     color: #384D48; 
     border-radius: 5px;
 }
+
 li>a{
     text-decoration: none;
     border-radius: 5px;
@@ -21,6 +23,7 @@ li>a{
     background-color: #D8D4D5;
     padding: 5px;
 }
+
 li>a:hover, .skills>*:hover{
     color: #314441;
     box-shadow: 5px 5px 10px rgba(56, 55, 55, 0.384);
@@ -32,6 +35,9 @@ header{
     background-color: #ACAD94;
     margin-bottom: 1%;
     padding-bottom: 1%;
+    height: 140px;
+    position: relative;
+    top: 0px;
 }
 header>h1{
     padding-left: 25px;
@@ -45,7 +51,6 @@ li{
     padding: 10px;
     
 }
-
 .skills > *{
     border-radius: 5px;
     border: gray;
@@ -70,12 +75,10 @@ main{
     margin: 0px 5%;
     position: relative;
     height: 100%;
-    
 }
 .home-main{
   display: flex;
 }
-
 /* Define the keyframes for the animation */
 @keyframes fall-in {
   0% {
@@ -95,7 +98,7 @@ main{
   align-items: center;
   justify-content: center;
 }
-/* Apply the animation to each letter of the H1 */
+/* Apply the animation to each letter of the H3 */
 h3.fall-in {
   display: inline-block;
   font-size: 2rem;
@@ -111,7 +114,6 @@ h3.fall-in span {
   opacity: 0; 
 }
 .name{
-  
     position: absolute;
     top: 35%;
     left: 6%;
@@ -123,29 +125,18 @@ h3.fall-in span {
     text-shadow: 0 0 10px #000;
     z-index: 2;
 }
-
-header {
-  height: 140px;
-  position: relative;
-  top: 0px;
-}
-
-
-
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
 }
-
 .lightsaber {
   position: absolute;
   left: 10%;
   width: 100px;
   height: 100px;
 }
-
 .lightsaber-handle {
   position: absolute;
   bottom: 1px;
@@ -157,7 +148,6 @@ header {
   border-radius: 5px;
   z-index: 1;
 }
-
 .lightsaber-blade {
   position: absolute;
   top: 0;
@@ -170,15 +160,12 @@ header {
   box-shadow: 0 0 15px #fff, 0 0 5px #fff, 0 0 25px #ff0000, 0 0 35px #ff0000, 0 0 50px #ff0000, 0 0 75px #ff0000;
   z-index: 0;
 }
-
 .lightsaber1 {
   transform: rotate(45deg);
 }
-
 .lightsaber2 {
   transform: rotate(-45deg);
 }
-
 .lightsaber-blade-red {
   box-shadow: 0 0 15px #fff, 0 0 5px #fff, 0 0 25px rgb(30, 255, 0), 0 0 35px rgb(9, 255, 0), 0 0 50px rgb(51, 255, 0)
 }
