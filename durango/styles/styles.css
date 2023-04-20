@@ -1,0 +1,55 @@
+/* Eathan Dueno April 20 2023 */
+html{
+	background-image: url(../images/jewelry.jpg) ;
+	background-repeat: no-repeat;
+	top: 0;	
+	background-size: 100%;
+	height: max-content;
+}
+
+footer{
+	padding-bottom:10px ;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+#outerwrapper {	
+	border-radius: 15%;
+	background: rgba(243,205,170, 0.4);
+	width: 70%;
+	margin: auto;
+}
+
+main{
+	background-image: linear-gradient(#FFFFFF, #F0F9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+	float: left;
+	border-radius: 50%;
+}
+.addrightmargin{
+	margin-right: 10%;
+}
+header>h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+}
+header>h2{
+	font-family: 'Roboto-Black';
+	font-style: italic;
+	font-size: 2em;
+}
+@font-face {
+	font-family: 'Roboto-Black';
+	src: url('../fonts/Roboto-Black.ttf') format('truetype');
+}
+nav>ul{
+	list-style-type: none;
+	font-size: 1.5em;
+	clear: left;
+  }
