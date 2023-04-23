@@ -7,18 +7,21 @@
     <title>Experience</title>
     <link rel="stylesheet" href="css/styles.css" >
     <link rel="stylesheet" href="css/stylesExp.css" >
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@1&display=swap');
+    </style>
 </head>
 <body>
     <header>
         <h1>Eathan Dueno</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="experience.html">Experience</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+        <nav>
+            <ul>
+                <li><a class="navButtons" href="index.html">Home</a></li>
+                <li><a class="navButtons" href="about.html">About</a></li>
+                <li><a class="navButtons" id="navButtons" href="experience.html">Experience</a></li>
+                <li><a class="navButtons" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main class="exp">
         <h2>Work Experience</h2>
@@ -40,15 +43,37 @@
             <li>Quality test the project for functionality and user experience </li>
         </ul>
         <div>
-            <h2>Programming Experience</h2>
-            <ul>
-                <li>SWDV-105 Introduction to Programming - Covering C# logic and syntax</li>
-                <li>SWDV-110 Intermediate Programming - Covering object oriented programming and class syntax</li>
-                <li>SWDV-115 Introduction to Web Application Development - Using HTML5/CSS3</li>
-                <li>Coding Dojo Flex Part-time - Learned Full Stack Python Web Development for 30 weeks</li>
-                <li>CodeAcademy - <a id="exp" target="_blank" href="images/JSCertCodeAcademy.pdf">Learn JavaScript</a></li>
-                
-            </ul>
+            <h2></h2>
+            <table>
+                <caption>Programming Experience</caption>
+                <tbody>
+                    <tr>
+                        <th>SWDV-105</th>
+                        <td>Introduction to Programming</td>
+                        <td>Covering C# logic and syntax</td>
+                    </tr>
+                    <tr>
+                        <th>SWDV-110</th>
+                        <td>Intermediate Programming</td>
+                        <td>Covering object oriented programming and class syntax</td>
+                    </tr>
+                    <tr>
+                        <th>SWDV-115</th>
+                        <td>Introduction to Web Application Development</td>
+                        <td>Using HTML5/CSS3</td>
+                    </tr>
+                    <tr>
+                        <th>Coding Dojo </th>
+                        <td>Flex Part-time Python Stack</td>
+                        <td>Learned Full Stack Python Web Development for 30 weeks</td>
+                    </tr>
+                    <tr>
+                        <th>CodeAcademy</th>
+                        <td>Learn JavaScript</td>
+                        <td><a id="exp" target="_blank" href="images/JSCertCodeAcademy.pdf">Learned </a>the general syntax and basic concepts</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
         <div class="projects">
             <div class="project">

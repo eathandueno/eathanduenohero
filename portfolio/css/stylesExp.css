@@ -5,6 +5,7 @@
   .projects{
     display: block;
     float: left;
+    margin: 5% 0px;
   }
   .project{
     border: 1px solid;
@@ -22,6 +23,7 @@
   .project:hover{
     box-shadow: 5px 5px rgba(243, 255, 131, 0.877);
     animation: updown 1.2s ease-in-out infinite;
+    
   }
   @keyframes updown {
     0% {
@@ -29,9 +31,10 @@
     }
     50% {
       transform: translateY(-2px);
+      box-shadow: 8px 8px rgba(243, 255, 131, 0.363);
     }
     75%{
-        transform: translateY(-1px);
+      transform: translateY(-1px);
     }
     100% {
       transform: translateY(0);

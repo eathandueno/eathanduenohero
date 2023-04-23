@@ -15,7 +15,7 @@ footer{
     border-radius: 5px;
 }
 
-li>a{
+.navButtons:link{
     text-decoration: none;
     border-radius: 5px;
     border:gray solid 1px;
@@ -23,8 +23,19 @@ li>a{
     background-color: #D8D4D5;
     padding: 5px;
 }
+.navButtons:visited{
+  background-color: #c2bebf;
+  color: #00967f;
+}
+.navButtons:active{
+  color: white;
+  background-color: black;
+}
+a:hover{
+  color: black ;
+}
 
-li>a:hover, .skills>*:hover{
+.navButtons:hover, .skills>*:hover{
     color: #314441;
     box-shadow: 5px 5px 10px rgba(56, 55, 55, 0.384);
 }
@@ -61,10 +72,12 @@ li{
 }
 .skills{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: auto;
 }
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: bold;
     margin: 0px;
     background-color: #D8D4D5 ;
 }
@@ -125,6 +138,7 @@ h3.fall-in span {
     text-shadow: 0 0 10px #000;
     z-index: 2;
 }
+/* Lightsaber animation and container styling */
 .container {
   display: flex;
   align-items: center;
@@ -169,4 +183,32 @@ h3.fall-in span {
 .lightsaber-blade-red {
   box-shadow: 0 0 15px #fff, 0 0 5px #fff, 0 0 25px rgb(30, 255, 0), 0 0 35px rgb(9, 255, 0), 0 0 50px rgb(51, 255, 0)
 }
+/* Table Styling */
+th{
+  font-weight: 900;
+  background: linear-gradient(rgb(0, 183, 255),rgba(226, 226, 57, 0.555));
 
+}
+table,tr,td,th{
+  border: solid 1px;
+}
+.number{
+  text-decoration: none;
+  color: #00967f;
+}
+caption{
+  font-weight: 900;
+  font-size: larger;
+}
+/* Custom Font import and application */
+#name{
+  font-family: 'branda';
+}
+@font-face {
+  font-family: 'branda';
+  src: url(../fonts/Branda-yolq.ttf) format('ttf');
+}
+#navButtons{
+  background-color: #314441;
+  color: #D8D4D5;
+}
