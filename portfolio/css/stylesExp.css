@@ -3,14 +3,13 @@
     flex-direction: column;
   }
   .projects{
-    display: block;
-    float: left;
+    display: flex;
     margin: 5% 0px;
+    flex-wrap: wrap;
   }
   .project{
     border: 1px solid;
     width: 250px;
-    float: left;
     height: 250px;
     box-shadow: 5px 5px 10px rgba(56, 55, 55, 0.384);
     margin: 5px;
