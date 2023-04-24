@@ -39,13 +39,14 @@
     </header>
     <main>
 
-        <form action="mailto:eathandueno@gmail.com" enctype="text/plain" method="GET">
+        <form action="mailto:eathandueno@gmail.com" enctype="text/plain" method="POST">
             <!-- Group Fields Together, page 104 -->
             <fieldset>
+                <input type="hidden" name="subject" value="EathansPersonalPortfolio" /> 
             <legend>How do I contact you?</legend>
-                <!-- Company Select Box, page 97 -->
+                <!-- Company Select Box-->
                 <div>
-                    <input type="hidden" name="subject" value="Personal&nbspPortfolio" /> 
+                    
                     <label>Company:</label>
                     
                     <input
@@ -55,7 +56,7 @@
                         placeholder="Company Name"
                     >
                 </div>
-                <!-- Person to Contact Select Box, page 97 -->
+                <!-- Person to Contact Select Box-->
                     <label>Person to contact</label>
                     <input
                         type="text"
@@ -93,16 +94,16 @@
                 </div>
             </fieldset>
     
-            <!-- Group Fields Together, page 104 -->
+            <!-- Group Fields Together-->
             <fieldset>
                 <legend>What opportunities are available at your company?</legend>
-                <!-- Select Box, page 98 -->
+                <!-- Select Box -->
                 <label for="type">Type of Position:</label>
                 <select name="type" id="type" >
                     <option value="Intership">Internship</option>
                     <option value="Jr Position">Jr Position</option>
                 </select>
-                <!-- Radio Buttons, page 99 -->
+                <!-- Radio Buttons -->
     
                 <div>
                     <!-- Text Area, textbook file code-9-1.html -->	
