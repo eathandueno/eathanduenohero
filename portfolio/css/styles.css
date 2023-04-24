@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
 footer{
     display: flex;
     flex-direction: column;
@@ -206,7 +207,7 @@ caption{
 }
 /* Custom Font import and application */
 #name{
-  font-family: 'branda';
+  font-family: 'Bruno Ace', cursive;
 }
 @font-face {
   font-family: 'branda';
@@ -215,4 +216,8 @@ caption{
 #navButtons{
   background-color: #314441;
   color: #D8D4D5;
+}
+.labels{
+  font-family: 'branda', Times, serif;
+  font-weight: 100;
 }
