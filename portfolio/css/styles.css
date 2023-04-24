@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@1&display=swap');
 footer{
     display: flex;
     flex-direction: column;
@@ -14,7 +15,6 @@ footer{
     color: #384D48; 
     border-radius: 5px;
 }
-
 .navButtons:link{
     text-decoration: none;
     border-radius: 5px;
@@ -34,7 +34,6 @@ footer{
 a:hover{
   color: black ;
 }
-
 .navButtons:hover, .skills>*:hover{
     color: #314441;
     box-shadow: 5px 5px 10px rgba(56, 55, 55, 0.384);
@@ -60,7 +59,6 @@ nav>ul{
 }
 li{
     padding: 10px;
-    
 }
 .skills > *{
     border-radius: 5px;
@@ -75,6 +73,7 @@ li{
     grid-template-columns: repeat(3, 1fr);
     overflow: auto;
 }
+
 body{
     font-family: 'Ysabeau', sans-serif;
     font-weight: bold;
@@ -187,17 +186,22 @@ h3.fall-in span {
 th{
   font-weight: 900;
   background: linear-gradient(rgb(0, 183, 255),rgba(226, 226, 57, 0.555));
-
+  color: black;
 }
-table,tr,td,th{
+table{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+tr,td,th{
   border: solid 1px;
+  padding: 10px;
 }
 .number{
   text-decoration: none;
   color: #00967f;
 }
 caption{
-  font-weight: 900;
   font-size: larger;
 }
 /* Custom Font import and application */
