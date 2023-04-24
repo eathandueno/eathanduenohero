@@ -39,13 +39,15 @@
     </header>
     <main>
 
-        <form action="mailto:eathandueno@gmail.com?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="GET">
+        <form action="mailto:eathandueno@gmail.com" enctype="text/plain" method="GET">
             <!-- Group Fields Together, page 104 -->
             <fieldset>
             <legend>How do I contact you?</legend>
                 <!-- Company Select Box, page 97 -->
                 <div>
+                    <input type="hidden" name="subject" value="Personal Portfolio" /> 
                     <label>Company:</label>
+                    
                     <input
                         type="text"
                         name="company"
