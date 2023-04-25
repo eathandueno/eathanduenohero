@@ -53,10 +53,19 @@ header{
 header>h1{
     padding-left: 25px;
 }
-nav>ul{
+.navHeader{
     display: grid;
     grid-template-columns: auto auto auto auto;
     list-style-type: none;
+}
+@media screen and (max-width:768px){
+  .navHeader{
+    display: flex;
+    flex-direction: column;
+  }
+  header{
+    height: fit-content;
+  }
 }
 li{
     padding: 10px;
@@ -148,6 +157,7 @@ h3.fall-in span {
 .lightsaber {
   position: absolute;
   left: 10%;
+  flex: 1;
   width: 100px;
   height: 100px;
 }
