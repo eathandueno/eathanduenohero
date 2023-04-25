@@ -55,3 +55,31 @@
 .exp-img{
   margin-left: 75px;
 }
+
+/* Table Styling */
+th{
+  font-weight: 900;
+  background: linear-gradient(rgb(0, 183, 255),rgba(226, 226, 57, 0.555));
+  color: black;
+}
+table{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+tr,td,th{
+  border: solid 1px;
+  padding: 10px;
+}
+caption{
+  font-size: larger;
+}
+/* Mobile view for tables */
+@media screen and (max-width:768px){
+  table{
+    width: 50%;
+  }
+  tr,th,td{
+    padding: fit-content;
+  }
+}

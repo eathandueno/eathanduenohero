@@ -1,0 +1,73 @@
+/* Lightsaber animation and container styling */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.lightsaber {
+    position: absolute;
+    left: 10%;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+}
+.lightsaber-handle {
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    width: 20px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 5px;
+    z-index: 1;
+}
+.lightsaber-blade {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 120%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #fff, 0 0 5px #fff, 0 0 25px #ff0000, 0 0 35px #ff0000, 0 0 50px #ff0000, 0 0 75px #ff0000;
+    z-index: 0;
+}
+.lightsaber1 {
+    transform: rotate(45deg);
+}
+.lightsaber2 {
+    transform: rotate(-45deg);
+}
+.lightsaber-blade-red {
+    box-shadow: 0 0 15px #fff, 0 0 5px #fff, 0 0 25px rgb(30, 255, 0), 0 0 35px rgb(9, 255, 0), 0 0 50px rgb(51, 255, 0)
+}
+  /* Apply the animation to each letter of the H3 */
+h3.fall-in {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h3.fall-in span {
+    display: inline-block;
+    animation-name: fall-in;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    opacity: 0; 
+}
+.name{
+    position: absolute;
+    top: 35%;
+    left: 4%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+    z-index: 2;
+}
