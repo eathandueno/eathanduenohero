@@ -1,0 +1,7 @@
+img{
+    background-color: black;
+    transition: background-color 1s ease-in-out 0.5s;
+}
+img:hover{
+    background-color: grey;
+}
